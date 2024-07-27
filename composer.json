@@ -1,0 +1,54 @@
+{
+    "name": "kurban/filament-easter",
+    "description": "Filament Easter Eggs Plugin 🥚",
+    "keywords": [
+        "kurban",
+        "laravel",
+        "filament-easter"
+    ],
+    "homepage": "https://github.com/kurban/filament-easter",
+    "support": {
+        "issues": "https://github.com/kurban/filament-easter/issues",
+        "source": "https://github.com/kurban/filament-easter"
+    },
+    "license": "MIT",
+    "version":"1.0.0",
+    "authors": [
+        {
+            "name": "Kurban",
+            "email": "kurban.at@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.15.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kurban\\FilamentEaster\\": "src/"
+        }
+    },
+    "scripts": {
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kurban\\FilamentEaster\\FilamentEasterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
