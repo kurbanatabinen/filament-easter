@@ -25,20 +25,14 @@ composer require kurban/filament-easter
 
 🚀 Customize it as neeeded
 ```php
-php artisan vendor:publish --tag=pulsegpt-config
+keys(): Set the key sequence to trigger the Easter egg.
+backgroundImage(): Set the background image URL for the modal.
+modalContent(): Set the content of the modal, including title, content, and footer.
 ```
 
-✅ Update your **environnements** variables 
-```bash
-OPENAI_API_KEY=
-OPENAI_ORGANIZATION=
 
-PULSEGPT_PROMPT="In one sentence, give me a higly motivational developer quote"
-```
 
-🚀 Add the card to your Pulse dashboard [Doc](https://laravel.com/docs/10.x/pulse#dashboard-customization):
-```html
-<livewire:pulse.gpt cols="3" />
-```
+✅ Support:
+If you discover any issues or have questions, please create an issue.
 
-**PulseGPT** is combining Laravel Pulse & OpenAI Laravel awesome work.
+**Filament Easter 🥚** was created for fun
